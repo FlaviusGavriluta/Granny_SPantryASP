@@ -36,5 +36,22 @@
 			},
 			"response": []
 		}
+	],
+	"variable": [
+		{
+			"key": "pantry_api_path",
+			"value": "https://getpantry.cloud/apiv1/pantry/",
+			"type": "string"
+		},
+		{
+			"key": "pantry_id",
+			"value": "645231cf-dea1-4402-be65-8765ea543d41",
+			"type": "string"
+		},
+		{
+			"key": "basket_name",
+			"value": "myBasket",
+			"type": "string"
+		}
 	]
 }
