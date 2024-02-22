@@ -62,6 +62,24 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get content of basket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pantry_api_path}}{{pantry_id}}/basket/{{basket_name}}",
+					"host": [
+						"{{pantry_api_path}}{{pantry_id}}"
+					],
+					"path": [
+						"basket",
+						"{{basket_name}}"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"variable": [
