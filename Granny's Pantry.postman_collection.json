@@ -2,5 +2,21 @@
 	"info": {
 		"_postman_id": "428cc23e-4df6-4cd8-a016-0a3ac1b0061c",
 		"name": "Granny's Pantry"
-	}
+	},
+	"item": [
+		{
+			"name": "Get details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pantry_api_path}}{{pantry_id}}",
+					"host": [
+						"{{pantry_api_path}}{{pantry_id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
