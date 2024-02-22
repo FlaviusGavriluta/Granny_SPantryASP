@@ -35,6 +35,33 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Fill Basket",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"fruits\": [\"apple\", \"banana\", \"peach\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{pantry_api_path}}{{pantry_id}}/basket/{{basket_name}}",
+					"host": [
+						"{{pantry_api_path}}{{pantry_id}}"
+					],
+					"path": [
+						"basket",
+						"{{basket_name}}"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"variable": [
